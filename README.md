@@ -9,18 +9,22 @@ Algorithm Selection:
 
 Implement a suitable algorithm for anomaly detection capable of adapting to concept drift and seasonal variations.
 Data Stream Simulation: Create a function to emulate a data stream, incorporating regular patterns, seasonal elements, and random noise.
+
 Anomaly Detection: 
 
 Develop a real-time mechanism to accurately flag anomalies as data is streamed.
+
 Optimization: 
 
 Ensure the algorithm is optimized for speed and efficiency.
+
 Visualization: 
 
 Create a straightforward real-time visualization tool to display both the data stream and any detected anomalies.
 
 
 KEY FEATURES
+
 Data Generation:
 
 A module to generate synthetic data streams with defined patterns, seasonal variations, and random noise.
