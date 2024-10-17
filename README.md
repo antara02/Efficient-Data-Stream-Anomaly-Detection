@@ -7,6 +7,7 @@ OBJECTIVES
 
 Algorithm Selection:
 Implement a suitable algorithm for anomaly detection capable of adapting to concept drift and seasonal variations.
+
 Data Stream Simulation: Create a function to emulate a data stream, incorporating regular patterns, seasonal elements, and random noise.
 
 Anomaly Detection: 
