@@ -17,4 +17,21 @@ The **Efficient Data Stream Anomaly Detection** project focuses on developing a 
 - **Real-Time Visualization**: Dynamic visualization of the data stream and anomaly scores, allowing for easy identification of detected anomalies.
 
 ## Installation
-To run the project, ensure you have Python 3.x installed along with the necessary libraries. You can install the required packages using:
+1. Clone the repository:
+    bash
+    git clone https://github.com/antara02/Efficient-Data-Stream-Anomaly-Detection.git
+    cd Efficient-Data-Stream-Anomaly-Detection
+    
+
+2. Install required packages:
+    bash
+    pip install numpy matplotlib rrcf
+    
+## Algorithm Details
+The RCF algorithm is ideal for real-time anomaly detection due to its scalability and adaptability:
+- *Random Cut Trees (RCT)*: A set of RCTs are used to form a forest, where each tree learns patterns in the data stream and computes codisplacement scores.
+- *Codisplacement Score*: Measures the displacement of data points within the trees to identify anomalies based on deviations from typical patterns.
+- *Threshold-based Detection*: A score threshold of 2 times the previous score is used to flag anomalies.
+
+## Results
+The project successfully detects anomalies in a simulated data stream, with anomalies visualized in red for easy identification. The RCF algorithm demonstrates high accuracy and adaptability to data stream changes.
