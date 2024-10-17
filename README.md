@@ -18,6 +18,3 @@ The **Efficient Data Stream Anomaly Detection** project focuses on developing a 
 
 ## Installation
 To run the project, ensure you have Python 3.x installed along with the necessary libraries. You can install the required packages using:
-
-```bash
-pip install -r requirements.txt
