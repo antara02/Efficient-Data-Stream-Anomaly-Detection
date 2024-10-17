@@ -18,7 +18,7 @@ The **Efficient Data Stream Anomaly Detection** project focuses on developing a 
 
 ## Installation
 1. Clone the repository:
-    bash
+    '''bash
     git clone https://github.com/antara02/Efficient-Data-Stream-Anomaly-Detection.git
     cd Efficient-Data-Stream-Anomaly-Detection
     
